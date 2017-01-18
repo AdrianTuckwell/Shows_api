@@ -8,3 +8,5 @@
 Show.delete_all
 
 Show.create({title:"Dukes of Hazzard", series: 1, description: "Cool car program", image: "dukes.jpg", programmeID: "1234"})
+Show.create({title:"BJ and the Bear", series: 2, description: "Lorry and a Bear", image: "bear.jpg", programmeID: "5678"})
+Show.create({title:"Stig of the Dump", series: 1, description: "Cave man", image: "stig.jpg", programmeID: "91011"})
