@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   # get 'shows' => 'shows#index'
 
   scope path: "api" do
